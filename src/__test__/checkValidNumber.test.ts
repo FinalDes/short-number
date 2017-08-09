@@ -1,4 +1,4 @@
-import {isNumber} from "../index";
+import {isNumber} from "../isNumber";
 describe("valid Number", () => {
     test("'100' return 100", () => {
         expect(isNumber("100")).toBe("100");
