@@ -4,7 +4,7 @@ export function isNumber(value: string|number): string|boolean {
     let result: string|boolean = false;
     if (typeof value === "number") {
         result = value.toString();
-    }else if (value.match(re)) {
+    } else if (value.match(re)) {
         result = value.toString();
         result = result.replace(/^0+/, "");
         result = result.replace(/^\./, "0.");
