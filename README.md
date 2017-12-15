@@ -1,1 +1,2 @@
 # short-number2(Deprecated) [![Build Status](https://travis-ci.org/FinalDes/short-number-demo.svg?branch=master)](https://travis-ci.org/FinalDes/short-number-demo) [![Coverage Status](https://coveralls.io/repos/github/FinalDes/short-number-demo/badge.svg?branch=master)](https://coveralls.io/github/FinalDes/short-number-demo?branch=master)
+[![Greenkeeper badge](https://badges.greenkeeper.io/FinalDes/short-number-demo.svg)](https://greenkeeper.io/)
