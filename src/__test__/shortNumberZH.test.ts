@@ -1,4 +1,4 @@
-import {shortNumber} from "./../shortNumberZh";
+import {shortNumber} from "./../shortNumberZH";
 
 describe("short Number ZH", () => {
     test("100 is 100", () => {
