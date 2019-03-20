@@ -9,25 +9,24 @@
     "build": "del-cli dist && tsc -p tsconfig.json",
     "lint": "tslint -p tslint.json",
     "test": "jest",
-    "test:verbose":"jest --verbose --no-cache",
+    "test:verbose": "jest --verbose --no-cache",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "devDependencies": {
-    "@types/jest": "^21.1.10",
-    "coveralls": "^3.0.0",
+    "@types/jest": "^24.0.11",
+    "coveralls": "^3.0.3",
     "del-cli": "^1.1.0",
-    "jest": "^22.4.4",
-    "ts-jest": "^22.4.6",
-    "ts-node": "^4.1.0",
-    "tslint": "^5.8.0",
-    "typescript": "^2.9.2"
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
   },
   "jest": {
-    "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
+    "verbose": true,
+    "preset": "ts-jest",
     "testRegex": "(tests/.*|\\.(test|spec))\\.ts$",
     "moduleFileExtensions": [
       "ts",
