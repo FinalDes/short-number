@@ -15,7 +15,7 @@
     "test:coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.11",
+    "@types/jest": "^25.2.2",
     "coveralls": "^3.0.3",
     "del-cli": "^1.1.0",
     "jest": "^24.5.0",
